@@ -5,7 +5,7 @@
 <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"> Curso Web Moderno Completo com JavaScript + Projetos <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"> 
   </h1>
   <h3>
-     Conteudos do curso da Cod3r dentro da plataforma udemy
+     Conteudos do curso da Cod3r dentro da plataforma <a href="https://www.udemy.com/share/1013eS3@bqlgzKkqyVH4DzAsbSN6PaYHxOkIJz-p271wpuRuEiqAVqwScyrSzIPxZXOc-aHWIA==/">Udemy</a>
   </h3>
 </div>
 
