@@ -4,22 +4,26 @@ numéricos na ordem que foram inseridos. Por exemplo: calculadora (2, ‘+’, 3
 3. Dica: Os sinais das operações são: ‘+’. ‘-’, ‘*’ e ‘/’.  Crie um caso default para operações inválidas. 
  */
 
-const calculadora = (num1, string, num2) => {
-    switch (num1, string, num2) {
-        case string === "+":
-            console.log(num1 + num2);
-            break
-        case string === "-":
-            console.log(num1 - num2);
-            break
-        case string === "*":
-            console.log(num1 * num2);
-            break
-        case string === "/":
-            console.log(num1 / num2);
-            break
-            default:console.log("ERRO!");
+const calculadora = (num1, operacao, num2) => {
+    switch (operacao) {
+        case '+':
+            return num1 + num2;
+
+        case '-':
+            return num1 - num2;
+
+        case '*':
+            return num1 * num2;
+
+        case '/':
+            return num1 / num2;
+
+        default: return "Operação Inválida";
     };
 };
 
-calculadora(2,'+',2)
+console.log(calculadora(2, '+', 3));
+console.log(calculadora(2, '-', 3));
+console.log(calculadora(2, '*', 3));
+console.log(calculadora(2, '/', 3));
+console.log(calculadora(2, 'a', 3));
